@@ -22,15 +22,15 @@ const projects = [
         name: "Observer",
         description: "Simulation which is created with Javascript canvas",
         img: "./assets/observer.PNG",
-        demo: "https://jekson365.github.io/Portfolio-websites/observer/home.html",
-        source: "https://github.com/Jekson365/Portfolio-websites/blob/master/observer/ind.js"
+        demo: "https://jekson365.github.io/PortfolioApp/observer/home.html",
+        source: "https://github.com/Jekson365/PortfolioApp/tree/main/observer"
     },
     {
         name: "Tic Tac Toe",
         description: "most famous game propably. with this project I wanted to develope my skills in Javascript. I built it using HTML / CSS and JS",
         img: "./assets/tictactoe.PNG",
-        demo: "https://jekson365.github.io/Portfolio-websites/TicTacToe/index.html",
-        source: "https://github.com/Jekson365/Portfolio-websites/tree/master/TicTacToe"
+        demo: "https://jekson365.github.io/PortfolioApp/TicTacToe/index.html",
+        source: "https://github.com/Jekson365/PortfolioApp/tree/master/TicTacToe"
     },
     {
         name:"Landing Page",
