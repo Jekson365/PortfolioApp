@@ -53,6 +53,13 @@ const projects = [
         demo:"https://jekson365.github.io/Recipies-App/",
         source:"https://github.com/Jekson365/Recipies-App"
         
+    },
+    {
+        name:"Cinema App",
+        description:"Application is built in React. Using themoviedb API. it contains 4 pages: Discover,Home,Registration and Login.Libraries I used: styled components,React router,bootstrap,react-icons",
+        img:"./assets/movies.PNG",
+        demo:"",
+        source:"https://github.com/Jekson365/MoviePage"
     }
 ]
 window.addEventListener("load", () => {
