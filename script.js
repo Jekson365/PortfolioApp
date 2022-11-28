@@ -58,7 +58,7 @@ const projects = [
         name:"Cinema App",
         description:"Application is built in React. Using themoviedb API. it contains 4 pages: Discover,Home,Registration and Login.Libraries I used: styled components,React router,bootstrap,react-icons",
         img:"./assets/movies.PNG",
-        demo:"",
+        demo:"https://jekson365.github.io/MoviePage/#/",
         source:"https://github.com/Jekson365/MoviePage"
     }
 ]
@@ -82,7 +82,7 @@ window.addEventListener("load", () => {
             </div>
             <div class="col-md-6 h-50">
                     <img src="${img}"
-                    class="pro-image img-fluid w-100 h-100" />
+                    class="pro-image img-fluid" />
             </div>
             </div>`
     })
