@@ -80,9 +80,9 @@ window.addEventListener("load", () => {
                 <a class="custom-btn ol" href="${demo}">Demo</a>
                 <a class="custom-btn" href="${source}">Source Code</a>
             </div>
-            <div class="col-md-6 h-50">
+            <div class="col-md-6 d-flex align-items-center h-50">
                     <img src="${img}"
-                    class="pro-image img-fluid" />
+                    class="img-fluid pr-im" />
             </div>
             </div>`
     })

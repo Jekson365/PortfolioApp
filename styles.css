@@ -23,6 +23,10 @@ a {
     background-color: transparent;
     transition: 0.3s;
 }
+.pr-im {
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0.1px rgba(0, 0, 0, 0.413);
+}
 .cir {
     color: #6C4AB6 !important;
 }
