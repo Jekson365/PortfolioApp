@@ -68,7 +68,7 @@ window.addEventListener("load", () => {
 
     container.innerHTML += `<h1 class="h1 text-center title m-5">Projects</h1>`
 
-    projects.forEach((item) => {
+    projects.reverse().forEach((item) => {
         const { name, description, img,demo,source } = item
         container.innerHTML +=
             `<div class="row align-items-center justify-content-center pr-item" style='height:100vh;'>
