@@ -92,6 +92,19 @@ const projects = [
             './assets/atom.png',
             './assets/bootstrap.png'
         ]
+    },
+     {
+        name: "Shopify template",
+        description: "website template is picked from shopify.built in react. (not completed yet)",
+        img: "./assets/cover-7.PNG",
+        demo: "https://jekson365.github.io/ShopifyTemplates/",
+        source: "https://github.com/Jekson365/ShopifyTemplates",
+        tools: [
+            './assets/js.png',
+            './assets/html.png',
+            './assets/atom.png',
+            './assets/bootstrap.png'
+        ]
     }
 ]
 
