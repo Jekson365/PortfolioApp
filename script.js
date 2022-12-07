@@ -93,19 +93,32 @@ const projects = [
             './assets/bootstrap.png'
         ]
     },
-     {
+    {
         name: "Shopify template",
         description: "website template is picked from shopify.built in react. (not completed yet)",
         img: "./assets/cover-7.PNG",
         demo: "https://jekson365.github.io/ShopifyTemplates/",
-        source: "https://github.com/Jekson365/ShopifyTemplates",
+        source: "https://github.com/Jekson365/mupando",
         tools: [
             './assets/js.png',
             './assets/html.png',
             './assets/atom.png',
             './assets/bootstrap.png'
         ]
-    }
+    },
+    {
+        name: "Mupando Clone",
+        description: "Coded with ReactJS. I used libraries such as: React router dom,react-icons,framer-motion,aos",
+        img: "./assets/mupando.PNG",
+        demo: "https://jekson365.github.io/mupando/",
+        source: "https://github.com/Jekson365/Birthday-party",
+        tools: [
+            './assets/js.png',
+            './assets/html.png',
+            './assets/atom.png',
+            './assets/bootstrap.png'
+        ]
+    },
 ]
 
 // const getTools = () => {
@@ -125,7 +138,7 @@ window.addEventListener("load", () => {
     projects.reverse().forEach((item) => {
         const { name, description, img, demo, source, tools } = item
         container.innerHTML +=
-            `<div class="row align-items-center justify-content-center pr-item" style='height:100vh;'>
+            `<div class="row align-items-center w-100 justify-content-center pr-item" style='height:100vh;'>
             <div class="col-md-6 d-flex-col justify-content-between align-items-center">
                 <h3 class="h3 title">${name}</h3>
                 <p class="para-title fs-5 mt-5 mb-5">
@@ -138,8 +151,8 @@ window.addEventListener("load", () => {
                 <div class='position-relative'>
                     <div class='tools'>
                         ${tools.map((tool) => {
-                            return `<img src='${tool}' class='tol'/>`
-                        })}
+                return `<img src='${tool}' class='tol'/>`
+            })}
                         </div>
                         <img src="${img}"
                             class="img-fluid pr-im" />
