@@ -119,6 +119,19 @@ const projects = [
             './assets/bootstrap.png'
         ]
     },
+    {
+        name: "Dozai Clone",
+        description: "Coded with ReactJS. I used libraries such as: React router dom,react-icons,framer-motion,aos. for styling SASS",
+        img: "./assets/dozai.PNG",
+        demo: "https://jekson365.github.io/Dozai/",
+        source: "https://github.com/Jekson365/Dozai ",
+        tools: [
+            './assets/js.png',
+            './assets/html.png',
+            './assets/atom.png',
+            './assets/bootstrap.png'
+        ]
+    },
 ]
 
 // const getTools = () => {
@@ -150,9 +163,7 @@ window.addEventListener("load", () => {
             <div class="col-md-6 tls d-flex align-items-center h-50 position-relative">
                 <div class='position-relative'>
                     <div class='tools'>
-                        ${tools.map((tool) => {
-                return `<img src='${tool}' class='tol'/>`
-            })}
+                    
                         </div>
                         <img src="${img}"
                             class="img-fluid pr-im" />
