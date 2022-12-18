@@ -132,6 +132,19 @@ const projects = [
             './assets/bootstrap.png'
         ]
     },
+    {
+        name: "Nyumba Clone",
+        description: "webflow.io website template clone.coded in React-JS using libraries such as Bootstrap,SASS,AOS,framer-motion",
+        img: "./assets/nyumba.PNG",
+        demo: "https://jekson365.github.io/home",
+        source: "https://github.com/Jekson365/nyumba",
+        tools: [
+            './assets/js.png',
+            './assets/html.png',
+            './assets/atom.png',
+            './assets/bootstrap.png'
+        ]
+    },
 ]
 
 // const getTools = () => {
