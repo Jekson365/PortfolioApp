@@ -136,7 +136,7 @@ const projects = [
         name: "Nyumba Clone",
         description: "webflow.io website template clone.coded in React-JS using libraries such as Bootstrap,SASS,AOS,framer-motion",
         img: "./assets/nyumba.PNG",
-        demo: "https://jekson365.github.io/home",
+        demo: "https://jekson365.github.io/nyumba",
         source: "https://github.com/Jekson365/nyumba",
         tools: [
             './assets/js.png',
