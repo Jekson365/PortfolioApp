@@ -123,7 +123,7 @@ const projects = [
         name: "Dozai Clone",
         description: "Coded with ReactJS. I used libraries such as: React router dom,react-icons,framer-motion,aos. for styling SASS",
         img: "./assets/dozai.PNG",
-        demo: "https://jekson365.github.io/Dozai/",
+        demo: "https://jekson365.github.io/dozai/",
         source: "https://github.com/Jekson365/Dozai ",
         tools: [
             './assets/js.png',
