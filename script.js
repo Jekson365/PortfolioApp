@@ -164,7 +164,10 @@ window.addEventListener("load", () => {
     projects.reverse().forEach((item) => {
         const { name, description, img, demo, source, tools } = item
         container.innerHTML +=
-            `<div class="row align-items-center w-100 justify-content-center pr-item" style='height:100vh;'>
+            `<div 
+            data-aos='fade-up'
+            data-aos-duration='2000'
+            class="row align-items-center w-100 justify-content-center pr-item" style='height:100vh;'>
             <div class="col-md-6 d-flex-col justify-content-between align-items-center">
                 <h3 class="h3 title">${name}</h3>
                 <p class="para-title fs-5 mt-5 mb-5">

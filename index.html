@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -29,7 +31,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Projects</a>
                 </li>
-                
+
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
                 </li>
@@ -38,20 +40,25 @@
     </nav>
 
     <section class="container-fluid" style="height:100vh;">
-        <div class="row justify-content-center align-items-center h-100">
-            <div class="col-md-6 justify-content-center align-items-center text-center">
-                <h1 class="fs-1 title">My name is Jeko</h1>
-                <p class="fs-5 paragraph">Front-end Developer</p>
-            </div>
-            <div class="col-md-6 overflow-hidden">
-                <img src="./assets/19362653.jpg" style="width: 100%;height: 100%;object-fit: cover;" />
+        <div data-aos="flip-left" data-aos-duration="1000"
+            class="cos row justify-content-center align-items-center h-100 position-relative"
+            style="background-image: url('https://i.redd.it/vpv7i4km4y751.jpg');">
+            <div class="overlay"></div>
+            <div class="content p-5">
+                <h1 class="text-white">My name is Jeko</h1>
+                <p class="p text-white">Front end Developer</p>
+                <p class="fs-6 text-white" style="max-width: 65ch;">
+                    Innovative Front End Developer with 2 years experience building and maintaining
+                    responsive layouts for both mobile and desktop
+                    Expertise in HTML,CSS(SASS),Javascript(ES6 + OOP) and modern libraries and frameworks
+                    such as ReactJS and Bootstrap.
+                </p>
             </div>
         </div>
     </section>
-    <h1 class="h1 text-center title sec-title" id="skills">Skills</h1>
+    <h1 class="mt-5 h1 text-center title sec-title" id="skills">Skills</h1>
     <section class="container-fluid d-flex align-items-center justify-content-center skills" style="
-
-    height:100vh;">
+height:100vh;">
         <div class="row justify-content-center align-items-center">
             <div class="col-md-3 align-items-center justify-content-center text-center">
                 <img src="./assets/html.png" class="img-fluid m-3" style="width: 20%;" />
@@ -87,10 +94,10 @@
             </div>
         </div>
     </section>
-    
-    
+
+
     <div class="container projects-container" style="height: fit-content;">
-        
+
         <div class="container" style="height: 100vh;">
             <h1 class="h1 text-center title m-5">Work Experience</h1>
             <p class="text-center fs-6 m-5" style="color: gray;">
@@ -107,7 +114,7 @@
                 <li class="list-group-item d-flex  justify-content-start align-items-center">
                     <i class="bi bi-record-fill pb-3 cir"></i>
                     <p>
-                        Actively working with API using Axios library 
+                        Actively working with API using Axios library
                     </p>
                 </li>
                 <li class="list-group-item d-flex justify-content-start align-items-center">
@@ -130,18 +137,18 @@
                     </p>
                 </li>
             </ul>
-            
+
         </div>
-        
+
     </div>
     <h1 class="h1 text-center sec-title title m-5" id="contact">Contact</h1>
     <div class="container-fluid my-5">
-        
+
         <footer class="text-center text-lg-start">
             <div class="container flex-wrap d-flex justify-content-center py-5">
                 <i class="bi bi-envelope-fill h3 m-3 f-icn position-relative text-center">
                     <div class="cont">
-                        <a class="fs-6">Jemali.ergemlidze.1@btu.edu.ge</a>
+                        <a class="fs-6">jeko.erg@gmail.com</a>
                     </div>
                 </i>
                 <i class="bi bi-linkedin h3 m-3 f-icn position-relative text-center">
@@ -166,6 +173,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.min.js"
         integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
     <script src="script.js"></script>
 
 </body>
