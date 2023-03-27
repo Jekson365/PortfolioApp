@@ -145,6 +145,19 @@ const projects = [
             './assets/bootstrap.png'
         ]
     },
+    {
+        name: "Beog Clone",
+        description: "webflow.io website template clone.coded in React-JS using libraries such as Bootstrap,SASS,AOS,framer-motion",
+        img: "./assets/beog.PNG",
+        demo: "https://6421b7962d1024096b65afbe--incandescent-daifuku-cad413.netlify.app/",
+        source: "https://github.com/Jekson365/beog.git",
+        tools: [
+            './assets/js.png',
+            './assets/html.png',
+            './assets/atom.png',
+            './assets/bootstrap.png'
+        ]
+    }
 ]
 
 // const getTools = () => {
