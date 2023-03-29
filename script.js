@@ -148,7 +148,7 @@ const projects = [
     {
         name: "Beog Clone",
         description: "webflow.io website template clone.coded in React-JS using libraries such as Bootstrap,SASS,AOS,framer-motion",
-        img: "./assets/beog.PNG",
+        img: "./assets/beog.png",
         demo: "https://6421b7962d1024096b65afbe--incandescent-daifuku-cad413.netlify.app/",
         source: "https://github.com/Jekson365/beog.git",
         tools: [
