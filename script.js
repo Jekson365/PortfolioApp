@@ -157,6 +157,19 @@ const projects = [
             './assets/atom.png',
             './assets/bootstrap.png'
         ]
+    },
+    {
+        name: "user Managment system",
+        description: "Propably my biggest javascript project which demonstrates my skills in Javascript. programm gives you opportunite to manage users by adding,deleting,editing them. some more features this softwares is that: you can export table in excel file,filter and search users. is usees localstorage as database",
+        img: "./assets/system.png",
+        demo: "https://642babdc88895555b06a3fac--graceful-souffle-f20f52.netlify.app/",
+        source: "https://github.com/Jekson365/javascript-project",
+        tools: [
+            './assets/js.png',
+            './assets/html.png',
+            './assets/atom.png',
+            './assets/bootstrap.png'
+        ]
     }
 ]
 
